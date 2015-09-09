@@ -1,0 +1,27 @@
+{
+  "name": "netclock",
+  "version": "1.0.0",
+  "description": "A simple tool for querying network timeservers",
+  "main": "index.js",
+  "bin": {
+    "netclock": "index.js"
+  },
+  "keywords": [
+    "time",
+    "net",
+    "server",
+    "ntp"
+  ],
+  "author": "Nigel Hanlon <nigel@mapwolf.net>",
+  "contributors": [
+    {
+      "name": "Nigel Hanlon",
+      "email": "nigel@mapwolf.net"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+      "colors" : "*",
+      "ntp-client": "*"
+  }
+}
